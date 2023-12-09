@@ -1,107 +1,126 @@
 body {
-    background:#ddd;
-    margin:50px;
-    }
+    background: #ddd;
+    margin: 0px;
+    width: 100%;
+}
+
 ul.nav {
-    margin:0;
-    padding:0;
-    }
-   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 ul.nav li {
-    list-style:none;    
-    display:inline;
-    }
+    list-style: none;
+    display: inline;
+}
 
 ul.nav li a {
-    float:left;
-    border-top:0.1em solid #fff;
-    border-right:0.1em solid #909090;
-    border-bottom:0.1em solid #909090;
-    border-left:0.1em solid #fff;
-    width:15.0em;
-    font:0.68em  Verdana, Arial, Helvetica,
-    sans-serif;
-    background:#f1f1f1;
-    color:#333333;
-    text-align:center;
-    padding:0  0.2em 0.2em  0;
-    text-decoration:none;
+    float: left;
+    border-top: 0.1em solid #fff;
+    border-right: 0.1em solid #909090;
+    border-bottom: 0.1em solid #909090;
+    border-left: 0.1em solid #fff;
+    width: 15.0em;
+    font: 0.68em Verdana, Arial, Helvetica,
+        sans-serif;
+    background: #f1f1f1;
+    color: #333333;
+    text-align: center;
+    padding: 0 0.2em 0.2em 0;
+    text-decoration: none;
     image-rendering: auto;
-    }
+}
 
-    h1{
-        background: #f1f1f1;
-    }
-    .background-image{
-        background-image: url("imag2.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+h1 {
+    background: #f1f1f1;
+}
 
-    .p{
-        font-size: 30px;
+.background-image {
+    background-image: url("imag2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-
-    }
+.p {
+    font-size: 30px;
 
 
-    .rodape{
-        background-color: rgb(15, 15, 56);
-        color: white;
-        height: auto;
-        width: 100%;
-        font-size: 14px;
-        font-family: helvetica;
-    }
-    .rodape a{
-        text-decoration: none;
-        color: white;
-    }
-    .rodape p{
-        margin-bottom: 5px;
-    }
-    .rodape-div{
-        display: flex;
-        flex-wrap: wrap;
-        width:100%;
-        margin: auto;
-        align-items: stretch;
-        padding: 60px 10px 40px 10px;
-    }
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-        display: flex;
-        width: calc(100% / 4 - 20px);
-        padding: 10px;
-    }
-    .rodape span{
-        font-size: 20px;
-        color: white;
-    }
-    .rodape-direitos{
-        width: calc(100% - 20px);
-        background-color: black;
-        padding: 10px;
-        margin: 0px;
-        text-align: center;
-    }
-
-    @media (max-width: 768px) {
-        .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-            width: calc(50% - 20px);
-            padding: 10px;
-        }
-        .rodape-div{
-            padding: 60px 0px 40px 0px;
-        }
-    }
-
-
-.banner{
-    width: 100%;
-    background-color: rgb(15, 15, 56);
 }
 
 
+.rodape {
+    background-color: rgb(15, 15, 56);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape span {
+    font-size: 20px;
+    color: white;
+}
+
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .rodape-div-1,
+    .rodape-div-2,
+    .rodape-div-3,
+    .rodape-div-4 {
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+
+    .rodape-div {
+        padding: 60px 0px 40px 0px;
+    }
+}
 
 
+.banner {
+    width: 100%;
+    background-color: rgb(15, 15, 56);
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 0%;
+}
